@@ -1,0 +1,1 @@
+holbertonschool-low_level_programming is a repository containing foundational projects for learning low-level programming in C.
