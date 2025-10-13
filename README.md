@@ -1,3 +1,1 @@
-# holbertonschool-low_level_programming
-
-This repository contains foundational projects for learning low-level programming in C. It covers essential topics such as compilation, memory management, shell scripting, and coding style. Each folder represents a focused module designed to build strong habits in writing efficient, readable, and portable code. All projects follow strict compliance with the Betty coding style.
+holbertonschool-low_level_programming is a collection of projects focused on learning the fundamentals of low-level programming in C. It includes exercises on compilation, memory management, shell scripting, and coding style. All code is written to comply with the Betty linter and tested on Ubuntu 20.04 LTS. Each folder represents a different learning module designed to build strong programming habits and deepen understanding of how computers execute code.
