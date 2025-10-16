@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+* add - adds two integers
+* @a: first integer
+* @b: seecond integer
+*
+* Return: result of a + b
+*/
+
+int add(int a, int b)
+{
+return (a + b);
+}
