@@ -19,7 +19,7 @@ _putchar('0');
 }
 else
 {
- _putchar(',');
+_putchar(',');
 _putchar(' ');
 
 if (product < 10)
