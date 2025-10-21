@@ -1,0 +1,1 @@
+This is the readme of the c pointer arrays and strings tasks.
