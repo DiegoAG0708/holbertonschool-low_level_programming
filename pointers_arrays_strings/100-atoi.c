@@ -19,7 +19,10 @@ if (s[i] == '-')
 sign *= -1;
 else if (s[i] >= '0' && s[i] <= '9')
 {
+if (sign == 1)
 result = result * 10 + (s[i] - '0');
+else
+result = result * 10 - (s[i] - '0');
 started = 1;
 }
 else if (started)
@@ -27,5 +30,5 @@ break;
 i++;
 }
 
-return (result *sign);
+return result;
 }
