@@ -1,0 +1,1 @@
+This directory is about recursions, which are a way to make math problems easier.
