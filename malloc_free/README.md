@@ -1,0 +1,1 @@
+In this directory, we will have exercises about malloc and free, which are used to allocate memory and free memory, it gives you enough memory to work. 
