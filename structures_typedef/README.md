@@ -1,0 +1,1 @@
+This direcotry is about structures, and how they help you to organize information
