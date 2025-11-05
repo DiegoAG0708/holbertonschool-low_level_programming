@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include "dog.h"
 
-/*
-* _strlen - returns the length of a string
-* @s: string to measure
+/**
+*_strlen - Calculates the length of a string
+*@s: The string to measure
 *
-* Return: length of string
+*Return: The number of characters in the string
 */
 int _strlen(char *s)
 {
@@ -17,12 +17,12 @@ len++;
 return (len);
 }
 
-/*
-* _strcpy - copies a string to a new buffer
-* @dest: destination buffer
-* @src: source string
+/**
+*_strcpy - Copies a string from source to destination
+*@dest: The buffer to copy into
+*@src: The string to copy
 *
-* Return: pointer to dest
+*Return: Pointer to the destination buffer
 */
 char *_strcpy(char *dest, char *src)
 {
@@ -38,13 +38,18 @@ dest[i] = '\0';
 return (dest);
 }
 
-/*
-* new_dog - creates a new dog and copies name and owner
-* @name: name of the dog
-* @age: age of the dog
-* @owner: owner of the dog
+/**
+*new_dog - Creates a new dog and stores copies of name and owner
+*@name: The name of the dog
+*@age: The age of the dog
+*@owner: The owner of the dog
 *
-* Return: pointer to new dog_t, or NULL on failure
+*Return: Pointer to the new dog_t structure, or NULL on failure
+*
+*Description: This function allocates memory for a new dog_t structure,
+*copies the name and owner strings into newly allocated memory,
+*and assigns them to the structure. If any allocation fails,
+*it frees all previously allocated memory and returns NULL.
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
