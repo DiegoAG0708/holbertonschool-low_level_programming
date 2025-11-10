@@ -1,0 +1,1 @@
+In this directory we will see examples of the functions ponters 
