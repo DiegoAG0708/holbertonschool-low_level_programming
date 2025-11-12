@@ -6,7 +6,7 @@
 *print_all - Prints anything based on format specifiers
 *@format: A string of format specifiers
 *
-*Description: Format specifiers:
+*Description: Supported specifiers:
 * c: char
 * i: integer
 * f: float
@@ -18,33 +18,37 @@ void print_all(const char * const format, ...)
 {
 va_list args;
 int i = 0;
-char *str;
 char *sep = "";
+char *str;
 
 va_start(args, format);
 
 while (format && format[i])
 {
-if (format[i] == 'c')
+switch (format[i])
 {
+case 'c':
 printf("%s%c", sep, va_arg(args, int));
-}
-if (format[i] == 'i')
-{
+sep = ", ";
+break;
+case 'i':
 printf("%s%d", sep, va_arg(args, int));
-}
-if (format[i] == 'f')
-{
+sep = ", ";
+break;
+case 'f':
 printf("%s%f", sep, va_arg(args, double));
-}
-if (format[i] == 's')
-{
+sep = ", ";
+break;
+case 's':
 str = va_arg(args, char *);
 if (str == NULL)
 str = "(nil)";
 printf("%s%s", sep, str);
-}
 sep = ", ";
+break;
+default:
+break;
+}
 i++;
 }
 
