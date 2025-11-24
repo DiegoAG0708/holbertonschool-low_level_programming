@@ -1,0 +1,1 @@
+This directory will be about linked lists and how they work. They are a way to structure data. 
