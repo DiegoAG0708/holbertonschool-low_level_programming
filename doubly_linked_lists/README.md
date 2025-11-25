@@ -1,0 +1,1 @@
+In this directory we will taslk about doubly linked lists and how they move back and forward. 
