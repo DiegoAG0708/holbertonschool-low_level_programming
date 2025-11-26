@@ -35,7 +35,6 @@ fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 if (fd == -1)
 return (-1);
 
-/* If text_content is NULL, we just created/truncated an empty file */
 if (len > 0)
 {
 w = write(fd, text_content, len);
