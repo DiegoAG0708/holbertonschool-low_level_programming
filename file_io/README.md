@@ -1,0 +1,1 @@
+we will talk about read write and more. 
