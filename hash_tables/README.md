@@ -1,0 +1,1 @@
+In this directory there will be information about hash tables, which are pretty much a process that takes an input of any size and produces a fixed-size string of characters, called a hash or diges. 
